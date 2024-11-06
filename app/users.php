@@ -9,5 +9,5 @@ class users extends Model
     protected $table = "users";
 }
 #Dat B code
-echo "Đạt A hello";
+echo "Hello Đạt A";
 ?>
