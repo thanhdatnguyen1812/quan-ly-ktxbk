@@ -10,5 +10,5 @@ class users extends Model
     
 }
 #đạt A code
-echo "Hello Đạt B" ;
+echo "Hello Đạt B";
 ?>
