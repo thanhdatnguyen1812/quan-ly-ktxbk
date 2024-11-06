@@ -6,4 +6,5 @@
     <li><a href="{{route('student_ttcn')}}"><i class="fa fa-user"></i><span>Thông tin cá nhân</span></a></li>
     <li><a href="{{route('student_cbql')}}"><i class="fa fa-users"></i></i><span>Cán bộ quản lý</span></a></li>
     <li><a href="{{route('student_doimk')}}"><i class="fa fa-lock"></i><span>Đổi mật khẩu</span></a></li>
+    {{-- <li><a href="{{route('student_thanhtoan')}}"><i class="fa fa-credit-card"></i><span>Thanh toán</span></a></li> --}}
 </ul>

@@ -8699,7 +8699,7 @@ body.page-fade-only-init > .page-container {
     right: 0;
   }
 }
-@media (max-width: 480px - 140) {
+@media (max-width: 480px-140) {
   .pull-none-xsm {
     float: none !important;
   }

@@ -145,7 +145,7 @@
   width: 34%;
   border-left: 1px solid #ebebeb;
   border-right: 1px solid #ebebeb;
-  *background-color: #e6e6e6;
+  background-color: #e6e6e6;
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
 }
@@ -168,7 +168,7 @@
 .has-switch label.disabled,
 .has-switch label[disabled] {
   color: #333333;
-  *background-color: #d9d9d9;
+  background-color: #d9d9d9;
 }
 .has-switch label:active,
 .has-switch label.active {
@@ -196,7 +196,7 @@
   border-top-left-radius: 49px;
 }
 .has-switch span.switch-right {
-  *background-color: #ffffff;
+  background-color: #ffffff;
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
 }
@@ -219,7 +219,7 @@
 .has-switch span.switch-right.disabled,
 .has-switch span.switch-right[disabled] {
   color: #333333;
-  *background-color: #f2f2f2;
+  background-color: #f2f2f2;
 }
 .has-switch span.switch-right:active,
 .has-switch span.switch-right.active {
@@ -227,7 +227,7 @@
 }
 .has-switch span.switch-primary,
 .has-switch span.switch-left {
-  *background-color: #0088cc;
+   background-color: #0088cc;
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
 }
@@ -259,7 +259,7 @@
 .has-switch span.switch-primary[disabled],
 .has-switch span.switch-left[disabled] {
   color: #ffffff;
-  *background-color: #0077b3;
+   background-color: #0077b3;
 }
 .has-switch span.switch-primary:active,
 .has-switch span.switch-left:active,
@@ -268,7 +268,7 @@
   background-color: #006699 \9;
 }
 .has-switch span.switch-info {
-  *background-color: #5bc0de;
+   background-color: #5bc0de;
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
 }
@@ -291,14 +291,14 @@
 .has-switch span.switch-info.disabled,
 .has-switch span.switch-info[disabled] {
   color: #ffffff;
-  *background-color: #46b8da;
+   background-color: #46b8da;
 }
 .has-switch span.switch-info:active,
 .has-switch span.switch-info.active {
   background-color: #31b0d5 \9;
 }
 .has-switch span.switch-success {
-  *background-color: #62c462;
+   background-color: #62c462;
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
 }
@@ -321,14 +321,14 @@
 .has-switch span.switch-success.disabled,
 .has-switch span.switch-success[disabled] {
   color: #ffffff;
-  *background-color: #4fbd4f;
+  background-color: #4fbd4f;
 }
 .has-switch span.switch-success:active,
 .has-switch span.switch-success.active {
   background-color: #42b142 \9;
 }
 .has-switch span.switch-warning {
-  *background-color: #fbb450;
+  background-color: #fbb450;
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
 }
@@ -351,14 +351,14 @@
 .has-switch span.switch-warning.disabled,
 .has-switch span.switch-warning[disabled] {
   color: #ffffff;
-  *background-color: #faa937;
+   background-color: #faa937;
 }
 .has-switch span.switch-warning:active,
 .has-switch span.switch-warning.active {
   background-color: #fa9f1e \9;
 }
 .has-switch span.switch-danger {
-  *background-color: #ee5f5b;
+   background-color: #ee5f5b;
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
 }
@@ -381,14 +381,14 @@
 .has-switch span.switch-danger.disabled,
 .has-switch span.switch-danger[disabled] {
   color: #ffffff;
-  *background-color: #ec4844;
+  background-color: #ec4844;
 }
 .has-switch span.switch-danger:active,
 .has-switch span.switch-danger.active {
   background-color: #e9322d \9;
 }
 .has-switch span.switch-default {
-  *background-color: #ffffff;
+  background-color: #ffffff;
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
 }
@@ -411,7 +411,7 @@
 .has-switch span.switch-default.disabled,
 .has-switch span.switch-default[disabled] {
   color: #333333;
-  *background-color: #f2f2f2;
+   background-color: #f2f2f2;
 }
 .has-switch span.switch-default:active,
 .has-switch span.switch-default.active {
@@ -611,7 +611,7 @@ div.datepicker table tr td.today,
 div.datepicker table tr td.today:hover,
 div.datepicker table tr td.today.disabled,
 div.datepicker table tr td.today.disabled:hover {
-  *background-color: #737397;
+   background-color: #737397;
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
   color: #000;
@@ -662,7 +662,7 @@ div.datepicker table tr td.today:hover[disabled],
 div.datepicker table tr td.today.disabled[disabled],
 div.datepicker table tr td.today.disabled:hover[disabled] {
   color: #ffffff;
-  *background-color: #66678a;
+   background-color: #66678a;
 }
 div.datepicker table tr td.today:active,
 div.datepicker table tr td.today:hover:active,
@@ -696,7 +696,7 @@ div.datepicker table tr td.range.today,
 div.datepicker table tr td.range.today:hover,
 div.datepicker table tr td.range.today.disabled,
 div.datepicker table tr td.range.today.disabled:hover {
-  *background-color: #f3ea7a;
+   background-color: #f3ea7a;
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
   -webkit-background-clip: padding-box;
@@ -752,7 +752,7 @@ div.datepicker table tr td.range.today:hover[disabled],
 div.datepicker table tr td.range.today.disabled[disabled],
 div.datepicker table tr td.range.today.disabled:hover[disabled] {
   color: #ffffff;
-  *background-color: #f1e663;
+   background-color: #f1e663;
 }
 div.datepicker table tr td.range.today:active,
 div.datepicker table tr td.range.today:hover:active,
@@ -768,7 +768,7 @@ div.datepicker table tr td.selected,
 div.datepicker table tr td.selected:hover,
 div.datepicker table tr td.selected.disabled,
 div.datepicker table tr td.selected.disabled:hover {
-  *background-color: #808080;
+   background-color: #808080;
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
   color: #fff;
@@ -820,7 +820,7 @@ div.datepicker table tr td.selected:hover[disabled],
 div.datepicker table tr td.selected.disabled[disabled],
 div.datepicker table tr td.selected.disabled:hover[disabled] {
   color: #ffffff;
-  *background-color: #737373;
+   background-color: #737373;
 }
 div.datepicker table tr td.selected:active,
 div.datepicker table tr td.selected:hover:active,
@@ -1212,7 +1212,7 @@ div.datepicker thead tr:first-child th.cw {
   display: none;
 }
 div.colorpicker {
-  *zoom: 1;
+   zoom: 1;
   top: 0;
   left: 0;
   padding: 4px;
@@ -5229,8 +5229,8 @@ input.typeahead {
   padding: 5px 0;
   background-color: #fff;
   border: 1px solid #ebebeb;
-  *border-right-width: 2px;
-  *border-bottom-width: 2px;
+   border-right-width: 2px;
+   border-bottom-width: 2px;
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding;
   background-clip: padding-box;

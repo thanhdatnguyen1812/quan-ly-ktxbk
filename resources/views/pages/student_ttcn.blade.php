@@ -88,11 +88,12 @@
                                             <option value="{{$ttsv->khoa}}">{{strtoupper($ttsv->khoa)}}</option>
                                         @endif
                                         <option value="">Chọn</option>
-                                        <option value="k60">K60</option>
-                                        <option value="k61">K61</option>
-                                        <option value="k62">K62</option>
-                                        <option value="k63">K63</option>
-                                        <option value="k64">K64</option>
+                                        <option value="19">19</option>
+                                        <option value="20">20</option>
+                                        <option value="21">21</option>
+                                        <option value="22">22</option>
+                                        <option value="23">23</option>
+                                        <option value="24">24</option>
                                     </select>
                                 </div>
                             </div>

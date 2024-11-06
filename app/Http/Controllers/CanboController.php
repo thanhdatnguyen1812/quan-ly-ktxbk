@@ -25,6 +25,35 @@ class CanboController extends Controller
         $ttphong = phong::where('id_khu',$id_khu)->paginate(7);
         return view('pages.cbql_phong',['ttphong'=>$ttphong]);
     }
+    #----------------Thêm phòng------------------------------------------------------------------------------------
+    public function them_phong(Request $request){
+        $id_khu = canboquanly::where('email',Auth::user()->email)->value('id_khu');
+        $phong = new phong();
+        $phong->sophong = $request->sophong;
+        $phong->id_khu = $id_khu;
+        $phong->snmax = $request->snmax;
+        $phong->gioitinh = $request->gioitinh;
+        $phong->sncur = 0; // Hoặc giá trị mặc định mà bạn muốn
+        $phong->save();
+        return redirect()->back();
+    }
+    #----------------Xóa phòng-------------------------------------
+    public function cbql_xoa_phong($id)
+    {
+        // Tìm phòng cần xóa theo id
+        $phong = phong::find($id);
+
+        // Kiểm tra xem phòng có tồn tại không
+        if (!$phong) {
+            return redirect()->back()->withErrors(['message' => 'Phòng không tồn tại!']);
+        }
+
+        // Xóa phòng
+        $phong->delete();
+
+        // Điều hướng về trang trước đó
+        return redirect()->back()->with('success', 'Xóa phòng thành công!');
+    }
     #-------------Xem thông tin Sinh viên ------------------------------------------------------------------------------
     public function cbql_ttsv(){
         return view('pages.cbql_ttsv');

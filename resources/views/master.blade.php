@@ -7,7 +7,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
-        <link rel="shortcut icon" href="{{asset('img/image.png')}}">   
+        <link rel="shortcut icon" href="{{asset('img/image.jpeg')}}">   
         <link rel="stylesheet" href="{{asset('css/master.css')}}">
         <link rel="stylesheet" href="{{asset('css/neon-core.css')}}">
         <link rel="stylesheet" href="{{asset('css/bootstrap.css')}}">
@@ -23,7 +23,7 @@
         <div class="page-container">
             <div class="sidebar-menu" style="min-height: 720px">
               <header class="logo-env">
-                <div class="logo"><img src="img/logo.png" style="max-height: 60px"></div>
+                <div class="logo"><img src="{{asset('img/logo.png')}}" style="max-height: 60px"></div>
                 <div class="sidebar-collapse" style="">
                     <a href="#" class="sidebar-collapse-icon with-animation">
                         <i class="entypo-menu"></i>
@@ -51,7 +51,7 @@
             <div class="main-content">
                 <div class="row">
                     <div class="col-md-12 col-sm-12 clearfix" style="text-align:center;">
-                        <h2 style="font-weight:200; margin:0px;">Ký túc xá Đại học Bách khoa Hà Nội</h2>
+                        <h2 style="font-weight:200; margin:0px;">Ký Túc Xá Sinh Viên</h2>
                     </div>
                 <div class="col-md-12 col-sm-12 clearfix ">
                 <ul class="list-inline links-list pull-right">
