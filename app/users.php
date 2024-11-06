@@ -10,4 +10,6 @@ class users extends Model
 }
 #Dat B code
 echo "Hello Đạt A";
+#Dat A code
+echo "Hello Đạt B :))";
 ?>
