@@ -8,3 +8,6 @@ class users extends Model
 {
     protected $table = "users";
 }
+#Dat B code
+echo "Hello Đạt A";
+?>
